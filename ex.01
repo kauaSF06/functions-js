@@ -1,0 +1,4 @@
+function boas_vindas(){
+    alert(`bem vindo ao programa`)
+}
+boas_vindas();
