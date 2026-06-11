@@ -1,0 +1,11 @@
+function Fmedia(){
+    let soma = 0
+    let num = []
+    for(let i = 0; i<3; i++){
+        num[i] = Number(prompt(`digite o numero`));
+        soma += num[i]
+}
+let media = soma/num.length
+alert(`a media dos numeros ${num} e ${media}`)
+}
+Fmedia();
