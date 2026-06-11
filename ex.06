@@ -1,0 +1,5 @@
+function funcaonome(){
+    let nome = Number(prompt("digite seu nome"))
+    alert(`ola ${nome}`)
+}
+funcaonome();
