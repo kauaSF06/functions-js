@@ -1,0 +1,10 @@
+function par(){
+    let num1 = Number(prompt("digite um numero"));
+    if(num1 % 2 == 0){
+        return true
+    }
+    else{
+        return false
+    }
+}
+alert(par());
