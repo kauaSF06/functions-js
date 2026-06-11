@@ -1,0 +1,7 @@
+function subtracao(){
+    num1 = Number(prompt("digite um numero"))
+    num2 = Number(prompt("digite outro numero"))
+    let soma = num1 - num2
+    alert(soma)
+}
+subtracao();
