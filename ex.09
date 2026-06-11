@@ -1,0 +1,7 @@
+function Tabuada(){
+    let num = Number(prompt("digite um numero"))
+    for(let i = 0; i<10; i++ ){
+        alert(`${num} x ${i} = ${num * i}`)
+    }
+}
+Tabuada();
